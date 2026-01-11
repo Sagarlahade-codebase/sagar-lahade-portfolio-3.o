@@ -61,11 +61,11 @@ export const FlagshipProjectSection = () => (
 
         <ul className="mb-3 list-disc space-y-1 pl-4">
           <li>ReactJS SPA in browser.</li>
-          <li>→ API Gateway / Load balancer.</li>
-          <li>→ Spring Boot service (catalog/cart/orders/users).</li>
-          <li>→ PostgreSQL/MySQL database.</li>
-          <li>→ Object Storage (product images, static assets).</li>
-          <li>→ Logging/monitoring in cloud-native tools.</li>
+          <li>API Gateway / Load balancer.</li>
+          <li>Spring Boot service (catalog/cart/orders/users).</li>
+          <li>PostgreSQL/MySQL database.</li>
+          <li>Object Storage (product images, static assets).</li>
+          <li>Logging/monitoring in cloud-native tools.</li>
         </ul>
 
         <p className="text-[10px] text-slate-500">

@@ -6,7 +6,7 @@ export const profile = {
   location: "Pune, Maharashtra, India",
   openTo: "Java Backend / Full‑Stack Engineer roles",
   email: "lahade.sb@gmail.com",
-  phone: "+91 9766180110 / +91 8381037829",
+  phone: "+91 9766180110 / +91 8381037829 / +91 9270506146",
   resumeUrl: "https://drive.google.com/drive/folders/1JfWMJVY--3KIW5Ql3VLHh44TKCUeLm1w?usp=sharing", // TODO: put real link
   links: {
     github: "https://github.com/Sagarlahade-codebase",
