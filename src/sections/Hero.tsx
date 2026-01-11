@@ -2,7 +2,7 @@
 import { motion, type Variants } from "framer-motion";
 import { profile } from "../data/profile";
 
-import avatar from "../assets/avatar-placeholder.jpg";
+import avatar from "../assets/sl123.png";
 import githubIcon from "../assets/github.svg";
 import linkedinIcon from "../assets/linkedin.svg";
 import hackerrankIcon from "../assets/hackerrank-white.svg";
@@ -216,7 +216,7 @@ export const Hero = () => {
                   <img
                     src={avatar}
                     alt="Sagar Lahade portrait"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover object-[50%_25%]"
                   />
                   <span className="absolute bottom-1 right-1 h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.9)]" />
                 </div>
