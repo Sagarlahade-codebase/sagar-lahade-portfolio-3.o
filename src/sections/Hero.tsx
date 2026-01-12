@@ -31,11 +31,23 @@ const itemVariants: Variants = {
   },
 };
 
-/* ===== BADGE CONFIG ===== */
+/* ===== BADGE CONFIG (NATURAL SIZES) ===== */
 const badgeImages = [
-  { src: ociArchBadge, label: "OCI Architect Certified", size: "h-10 sm:h-11" },
-  { src: ociDevBadge, label: "OCI Developer Certified", size: "h-8 sm:h-9" },
-  { src: MTAbadge, label: "MTA Developer", size: "h-7 sm:h-8" },
+  {
+    src: ociArchBadge,
+    label: "OCI Architect Certified",
+    size: "h-10 sm:h-11",
+  },
+  {
+    src: ociDevBadge,
+    label: "OCI Developer Certified",
+    size: "h-8 sm:h-9",
+  },
+  {
+    src: MTAbadge,
+    label: "MTA Developer",
+    size: "h-7 sm:h-8",
+  },
 ];
 
 export const Hero = () => {
@@ -47,7 +59,7 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative flex min-h-[85vh] sm:min-h-screen items-center overflow-hidden px-4"
+      className="relative flex min-h-screen items-center overflow-hidden px-4"
     >
       {/* ===== BACKGROUND GLOWS ===== */}
       <div className="pointer-events-none absolute inset-0 opacity-60">
@@ -56,7 +68,7 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.18),transparent_60%)]" />
       </div>
 
-      <div className="relative mx-auto grid w-full max-w-6xl grid-cols-1 gap-10 pt-16 pb-12 sm:pt-20 sm:pb-14 md:grid-cols-[3fr,2fr]">
+      <div className="relative mx-auto grid w-full max-w-6xl grid-cols-1 gap-10 pt-20 pb-14 md:grid-cols-[3fr,2fr]">
         {/* ================= LEFT ================= */}
         <motion.div
           variants={containerVariants}
@@ -75,7 +87,7 @@ export const Hero = () => {
           {/* Heading */}
           <motion.h1
             variants={itemVariants}
-            className="font-heading text-2xl font-semibold leading-tight sm:text-4xl lg:text-5xl"
+            className="font-heading text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl"
           >
             Java Backend &amp; Full-Stack Engineer
           </motion.h1>
@@ -90,18 +102,16 @@ export const Hero = () => {
             AWS / Oracle Cloud.
           </motion.p>
 
-          {/* Secondary intro – hidden on mobile */}
           <motion.p
             variants={itemVariants}
-            className="hidden sm:block mt-2 max-w-2xl text-sm text-slate-300 sm:text-base"
+            className="mt-2 max-w-2xl text-sm text-slate-300 sm:text-base"
           >
             {profile.heroSubtitle}
           </motion.p>
 
           <motion.p
             variants={itemVariants}
-            className="mt-3 text-xs text-slate-400"
-          >
+            className="mt-3 text-xs text-slate-400">
             {profile.location} · Open to {profile.openTo}
           </motion.p>
 
@@ -120,7 +130,7 @@ export const Hero = () => {
             ))}
           </motion.div>
 
-          {/* ===== IMAGE BADGES ===== */}
+          {/* ===== IMAGE BADGES (NATURAL SCALE) ===== */}
           <motion.div
             variants={itemVariants}
             className="mt-6 flex flex-wrap gap-3"
@@ -156,7 +166,7 @@ export const Hero = () => {
           {/* ===== CTAs ===== */}
           <motion.div
             variants={itemVariants}
-            className="mt-6 flex flex-col sm:flex-row gap-3"
+            className="mt-8 flex flex-wrap gap-3"
           >
             <motion.button
               whileHover={{ scale: 1.03 }}
@@ -189,8 +199,8 @@ export const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* ================= RIGHT (DESKTOP ONLY) ================= */}
-        <div className="hidden md:flex flex-col items-center gap-6 md:items-end">
+        {/* ================= RIGHT ================= */}
+        <div className="flex flex-col items-center gap-6 md:items-end">
           {/* Snapshot card */}
           <motion.div className="w-full max-w-sm">
             <motion.div
