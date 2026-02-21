@@ -5,7 +5,7 @@ import { Section } from "./section";
 const experiences = [
   {
     company: "Config Server LLP · MediMart Cloud",
-    role: "Java Developer",
+    role: "Software Engineer",
     period: "Feb 2024 – Present",
     location: "Pune, Maharashtra (Remote-first)",
     points: [
@@ -31,7 +31,7 @@ const experiences = [
   },
   {
     company: "Polymorphism Infotech",
-    role: "Java Developer",
+    role: "Software Engineer",
     period: "Jun 2023 – Feb 2024",
     location: "Pune, India",
     points: [
