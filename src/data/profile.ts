@@ -2,7 +2,7 @@ export const profile = {
   name: "Sagar Lahade",
   title: "Java Backend & Full‑Stack Engineer – Spring Boot · ReactJS · AWS & Oracle Cloud",
   heroSubtitle:
-    "I build backend‑heavy web applications that are secure, predictable, and easy to evolve. Over the last 3.8+ years I’ve worked on healthcare, MedTech, and E‑commerce systems using Java, Spring Boot, ReactJS and cloud platforms like AWS and Oracle Cloud.",
+    "I build backend‑heavy web applications that are secure, predictable, and easy to evolve. Over the last 4+ years I’ve worked on healthcare, MedTech, and E‑commerce systems using Java, Spring Boot, ReactJS and cloud platforms like AWS and Oracle Cloud.",
   location: "Pune, Maharashtra, India",
   openTo: "Java Backend / Full‑Stack Engineer roles",
   email: "lahade.sb@gmail.com",
