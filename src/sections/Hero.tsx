@@ -97,7 +97,7 @@ export const Hero = () => {
             variants={itemVariants}
             className="mt-4 max-w-2xl text-sm text-slate-200 sm:text-base"
           >
-            Java-focused backend and full-stack engineer with 3.8+ years building
+            Java-focused backend and full-stack engineer with 4+ years building
             secure healthcare and E-commerce systems on Spring Boot, ReactJS and
             AWS / Oracle Cloud.
           </motion.p>
