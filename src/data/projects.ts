@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "Costco Travel",
     type: "professional",
-    image:mediMart,
+    image:costco,
     description:
       "Enterprise travel-booking platform supporting consumer and agent applications across cruise, hotel, vacation package, and rental car products, with interconnected application modules and downstream service integrations.",
     tech: [
