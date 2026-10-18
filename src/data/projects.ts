@@ -25,7 +25,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "MediMart Cloud",
+    title: "Costco Travel",
     type: "professional",
     image:mediMart,
     description:
