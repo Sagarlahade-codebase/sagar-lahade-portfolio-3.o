@@ -8,6 +8,7 @@ import mediMart from "../assets/mediMart.png";
 import cervi from "../assets/CerviTester.png"; 
 import pump from "../assets/InfuCare.png"; 
 import healthhub from "../assets/HealthHub.png"; 
+import costco from "../assets/costco.png";
 
 
 
