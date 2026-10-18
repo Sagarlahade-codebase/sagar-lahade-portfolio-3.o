@@ -29,6 +29,22 @@ export const projects: Project[] = [
     type: "professional",
     image:mediMart,
     description:
+      "Enterprise travel-booking platform supporting consumer and agent applications across cruise, hotel, vacation package, and rental car products, with interconnected application modules and downstream service integrations.",
+    tech: [
+      "JSP",
+      "Java 8",
+      "Spring Boot",
+      "Javascript",
+      "PostgreSQL/MySQL",
+      "Docker",
+      "React",
+    ],
+  }
+  ,{
+    title: "MediMart Cloud",
+    type: "professional",
+    image:mediMart,
+    description:
       "Healthcare-focused E-commerce app where hospitals and individuals can browse products, manage carts and place orders securely.",
     tech: [
       "ReactJS",
