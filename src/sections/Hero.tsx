@@ -236,7 +236,7 @@ export const Hero = () => {
 
               <div className="grid grid-cols-2 gap-3 text-xs">
                 {[
-                  ["Experience", "3.8+ years"],
+                  ["Experience", "4+ years"],
                   ["Focus", "Backend-heavy full-stack"],
                   ["Domains", "Healthcare · MedTech · E-commerce"],
                   ["Open to", "Java Backend / Full-Stack"],
