@@ -4,6 +4,33 @@ import { Section } from "./section";
 
 const experiences = [
   {
+    company: "Infogain - Costco Travel",
+    role: "Software Engineer",
+    period: "Mar 2026 – Present",
+    location: "Pune, Maharashtra (Remote)",
+    points: [
+      "Develop and enhance Java backend components for Costco Travel, implementing business logic and service integrations across consumer and agent applications.",
+      "Design and maintain modular backend components using Java, Spring Boot, REST APIs, and microservices principles, emphasizing reusable code, separation of concerns, and maintainability.",
+      "Contribute to Java 11-to-Java 21 migration, evaluating dependency compatibility, Gradle configurations, JVM module restrictions, and Tomcat runtime settings.",
+      "Enhance data-access components using Hibernate/JPA and SQL, focusing on efficient data retrieval, transaction integrity, and maintainable persistence logic.",
+      "Investigate and resolve application integration defects by tracing service execution, data flows, and configuration dependencies, collaborating with development teams to deliver reliable code changes."
+    ],
+    stack: [
+      "Java 11",
+      "Spring Boot",
+      "Spring MVC",
+      "REST APIs",
+      "Spring Security (JWT/OAuth2)",
+      "PostgreSQL",
+      "Ehcache",
+      "HashiCorp Vault",
+      "Git",
+      "JUnit",
+      "SonarQube",
+      "JaCoCo",
+    ],
+  },
+  {
     company: "Config Server LLP · MediMart Cloud",
     role: "Software Engineer",
     period: "Feb 2024 – Present",
