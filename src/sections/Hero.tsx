@@ -238,7 +238,7 @@ export const Hero = () => {
                 {[
                   ["Experience", "4+ years"],
                   ["Focus", "Backend-heavy full-stack"],
-                  ["Domains", "Healthcare · MedTech · E-commerce"],
+                  ["Domains", "Healthcare · Travel · E-commerce"],
                   ["Open to", "Java Backend / Full-Stack"],
                 ].map(([label, value]) => (
                   <div key={label}>
